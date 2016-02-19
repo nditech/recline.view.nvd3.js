@@ -27,7 +27,8 @@ my.BaseControl = Backbone.View.extend({
                     '</optgroup>' +
                     '<optgroup label="Date">' +
                       '<option data-type="Date" value="%m/%d/%Y">mm/dd/yyyy</option>' +
-                      '<option data-type="Date" value=""%m-%d-%Y">mm-dd-yyyy</option>' +
+                      '<option data-type="Date" value="%m-%d-%Y">mm-dd-yyyy</option>' +
+                      '<option data-type="Date" value="%b-%Y">mmm-yyyy</option>' +
                       '<option data-type="Date" value="%Y">Year</option>' +
                     '</optgroup>' +
                     '<optgroup label="Currency">' +
